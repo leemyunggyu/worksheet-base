@@ -9,9 +9,9 @@ import {
 } from '@things-factory/sales-base'
 import { Inventory, INVENTORY_TRANSACTION_TYPE } from '@things-factory/warehouse-base'
 import { Equal, Not } from 'typeorm'
-import { generateInventoryHistory } from '../../../../utils'
 import { WORKSHEET_STATUS, WORKSHEET_TYPE } from '../../constants'
 import { Worksheet, WorksheetDetail } from '../../entities'
+import { generateInventoryHistory } from '../../utils'
 import { VasWorksheetController } from '../vas/vas-worksheet-controller'
 
 export class LoadingWorksheetController extends VasWorksheetController {
